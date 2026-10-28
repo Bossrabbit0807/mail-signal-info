@@ -4,17 +4,17 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
-  <title>プライバシーポリシー案｜Mail Signal Personal Receiver</title>
+  <title>プライバシーポリシー｜Mail Signal Personal Receiver</title>
   <meta name="description" content="Mail Signal Personal Receiverが扱うメール情報、利用目的、外部サービスへの共有、保存と接続解除について。">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <a class="skip" href="#main">本文へ</a>
-<div class="draft"><div class="wrap"><strong>確認用の案・未公開</strong>これは公開済み・運用開始済みのポリシーではありません。</div></div>
+<div class="draft"><div class="wrap"><strong>2026年10月28日 公開版</strong>運用開始前の段階のポリシーです。未確認と記した事項は、確定後にこのページを更新します。</div></div>
 <header><div class="wrap header"><a class="brand" href="index.html"><span class="mark" aria-hidden="true">M</span><span>Mail Signal<small>Personal Receiver</small></span></a><nav aria-label="メインナビゲーション"><a href="index.html">このツールについて</a><a href="privacy.html" aria-current="page">プライバシー</a></nav></div></header>
 <main id="main"><div class="wrap policy">
-  <div class="eyebrow">DATA &amp; PRIVACY</div><h1>メール情報の取り扱い</h1><p class="lede">Mail Signal Personal Receiverは、管理者本人が自分のメールを確認するためのツールです。このページは、運用開始前に本人が確認するプライバシーポリシーの案です。</p>
-  <div class="note"><strong>現在の状態</strong><br>メールの常時監視・外部AIによる自動判定・通知は未開始です。外部AI・チャット履歴・バックアップの保持条件が確定するまで、運用開始用のポリシーとして確定しません。</div>
+  <div class="eyebrow">DATA &amp; PRIVACY</div><h1>メール情報の取り扱い</h1><p class="lede">Mail Signal Personal Receiverは、管理者本人が自分のメールを確認するためのツールです。このページは、本ツールのプライバシーポリシーです。運用開始前の段階であり、確認中の事項を明記しています。</p>
+  <div class="note"><strong>現在の状態</strong><br>本人のアカウントで受信トレイの読み取り試験を開始しています。外部AIによる自動判定・通知は未開始です。外部AI・チャット履歴・バックアップの保持条件が確定するまで、運用開始用のポリシーとして確定しません。</div>
   <nav class="toc" aria-label="ページ内目次"><a href="#data">扱う情報</a><a href="#sharing">共有先</a><a href="#ai-use">学習とレビュー</a><a href="#retention">保存期間</a><a href="#control">解除と削除</a><a href="#contact">連絡先</a></nav>
   <section id="data"><h2>1. 扱う情報と利用目的</h2><p>本人が接続したメールアカウントについて、アカウントの識別情報、差出人・件名・本文・受信日時などのメール情報、メッセージの識別子、接続に必要な認証情報を扱います。用途は新着確認、重要度の判定、本人への通知、重複通知の防止、障害からの復旧です。</p><p>Googleへの認証はGoogleの公式画面で本人が行います。本ツールやこの説明ページにGoogleアカウントのパスワードを入力する必要はありません。</p><p>取得対象は受信トレイです。Gmailの読み取り権限はメールボックス全体を読める権限ですが、プログラム側で対象を限定します。メールの送信・転送・削除、既読状態やラベルの変更は行いません。添付ファイルを個別に保存・解析する機能はありません。メール取得時には、接続方式により添付部分を含むデータを受信する場合があります。</p></section>
   <section id="sharing"><h2>2. 外部サービスへ渡す情報</h2><p>判定には、本人が利用する<strong>OpenAIのChatGPT（dots）</strong>を使用する予定です。件名・本文の必要な範囲とアカウント識別情報などが、その実行環境や会話に渡る構成です。運用開始前に、利用する接続経路、送る項目、保存・学習利用の条件を確認します。</p><p>認証関連の内容を検知したメールは外部判定に回さず、本文のリンクなどを除去して入力を制限します。ただし、機密情報を完全に検出・除去できるとは保証しません。健康・家計などの私的な情報が本文に含まれる可能性もあります。</p><p>本人向けの通知には、アカウントの別名、重要度、件名・要約、受信日時、確認できた期限、メールまたは受信箱へのリンクを含む場合があります。受信箱へのリンクを使う場合は、探しやすいよう元の件名と受信日時を通知に記載します。通知先は本人が承認した場所に固定します。ChatGPT上の会話・通知履歴は、下記のローカル保存期間とは別に扱われます。</p><p>運営者は、メール情報を広告・データ販売・汎用AIの学習に用いない方針です。外部サービスでの扱いは、次の設定・利用条件と区別して確認します。</p></section>
@@ -36,7 +36,7 @@
     <h3>処理・保存する地域</h3><p>日本居住者に適用される<a href="https://openai.com/policies/row-privacy-policy/" rel="noreferrer">OpenAIプライバシーポリシー</a>では、米国や関連会社・委託先等が所在する国・地域で処理・保存する場合があるとされています。この利用環境の具体的な保存地域や、日本国内限定での保存は確認できていません。</p>
   </section>
   <section id="control"><h2>5. 接続の解除・データの削除</h2><p>Gmailの接続は、<a href="https://myaccount.google.com/connections" rel="noreferrer">Googleアカウントの接続管理</a>から解除できます。解除後に新たなGoogleアクセスができないことを確認し、受信処理を停止します。</p><p>接続解除だけでは、取得済みのローカルデータ、dotの文脈やChatGPTの会話は自動的には消えません。メモリOFFも、dotがすでに受け取った情報の削除ではありません。アーカイブと削除も別です。削除時は、認証情報・処理データ・バックアップ、dot、会話・タスク、メモリ、Libraryなどに別保存したファイルをそれぞれ確認します。送達不明の通知を再送しないよう、処理停止と状態確認を先に行います。</p></section>
-  <section><h2>6. この説明ページの閲覧</h2><p>このページにはログイン機能、広告、アクセス解析、外部の画像・フォント・スクリプトを組み込んでいません。メール情報や認証情報を入力・送信するフォームもありません。</p><p>公開先の運営事業者が、セキュリティ等のためにIPアドレスなどの接続記録を扱う場合があります。公開先の決定後に、その事業者名とプライバシー情報をここへ追記します。</p></section>
+  <section><h2>6. この説明ページの閲覧</h2><p>このページにはログイン機能、広告、アクセス解析、外部の画像・フォント・スクリプトを組み込んでいません。メール情報や認証情報を入力・送信するフォームもありません。</p><p>公開先の運営事業者が、セキュリティ等のためにIPアドレスなどの接続記録を扱う場合があります。このページは GitHub Pages（GitHub, Inc.）で公開しています。GitHub が接続記録を扱う条件は <a href="https://docs.github.com/ja/site-policy/privacy-policies/github-general-privacy-statement">GitHub の一般プライバシーに関する声明</a> を参照してください。</p></section>
   <section><h2>7. Googleユーザーデータと変更の通知</h2><p>Googleから受け取った情報は、ここに記載した本人向け機能のために扱い、<a href="https://developers.google.com/terms/api-services-user-data-policy?hl=ja" rel="noreferrer">Google APIサービスのユーザーデータに関するポリシー</a>の使用制限（Limited Use）に従う方針です。実運用のデータ経路と条件を確認してから利用を開始します。</p><p>利用目的、共有先、扱う情報の範囲を変更する場合は、このページと本人向けの説明を更新し、必要な同意を得てから変更します。</p></section>
   <section id="contact"><h2>8. 運営者・連絡先</h2><div class="contact"><p>運営者：Bossrabbit</p><p>問い合わせ・削除依頼：<a href="mailto:brack2rd.tomoya@gmail.com">brack2rd.tomoya@gmail.com</a></p><p class="quiet">パスワード、認証コード、トークン、メール本文を送らないでください。</p></div><p class="quiet">作成案：2026年10月25日（日本時間）／公開・適用日は確認後に記載します。</p></section>
 </div></main>
